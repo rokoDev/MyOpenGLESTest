@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		398394681BEF845A00166417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 398394671BEF845A00166417 /* main.m */; };
-		3983946B1BEF845A00166417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983946A1BEF845A00166417 /* AppDelegate.m */; };
-		3983946D1BEF845A00166417 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3983946C1BEF845A00166417 /* Shader.fsh */; };
-		3983946F1BEF845A00166417 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 3983946E1BEF845A00166417 /* Shader.vsh */; };
-		398394721BEF845A00166417 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398394711BEF845A00166417 /* GameViewController.m */; };
+		39189D7F1BEF8D3D0099A071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7A1BEF8D3D0099A071 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		39189D801BEF8D3D0099A071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7A1BEF8D3D0099A071 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		39189D811BEF8D3D0099A071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7A1BEF8D3D0099A071 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		39189D821BEF8D3D0099A071 /* FileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7C1BEF8D3D0099A071 /* FileWrapper.m */; settings = {ASSET_TAGS = (); }; };
+		39189D831BEF8D3D0099A071 /* FileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7C1BEF8D3D0099A071 /* FileWrapper.m */; settings = {ASSET_TAGS = (); }; };
+		39189D841BEF8D3D0099A071 /* FileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7C1BEF8D3D0099A071 /* FileWrapper.m */; settings = {ASSET_TAGS = (); }; };
+		39189D851BEF8D3D0099A071 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7E1BEF8D3D0099A071 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		39189D861BEF8D3D0099A071 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7E1BEF8D3D0099A071 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		39189D871BEF8D3D0099A071 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D7E1BEF8D3D0099A071 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		39189D891BEF8D5D0099A071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D881BEF8D5D0099A071 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		39189D8A1BEF8D5D0099A071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D881BEF8D5D0099A071 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		39189D8B1BEF8D5D0099A071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39189D881BEF8D5D0099A071 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		398394751BEF845B00166417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398394731BEF845B00166417 /* Main.storyboard */; };
 		398394771BEF845B00166417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398394761BEF845B00166417 /* Assets.xcassets */; };
 		3983947A1BEF845B00166417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398394781BEF845B00166417 /* LaunchScreen.storyboard */; };
@@ -37,14 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39189D791BEF8D3D0099A071 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39189D7A1BEF8D3D0099A071 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39189D7B1BEF8D3D0099A071 /* FileWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWrapper.h; sourceTree = "<group>"; };
+		39189D7C1BEF8D3D0099A071 /* FileWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWrapper.m; sourceTree = "<group>"; };
+		39189D7D1BEF8D3D0099A071 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39189D7E1BEF8D3D0099A071 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39189D881BEF8D5D0099A071 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		398394631BEF845A00166417 /* MyOpenGLESTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOpenGLESTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		398394671BEF845A00166417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		398394691BEF845A00166417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3983946A1BEF845A00166417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3983946C1BEF845A00166417 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
-		3983946E1BEF845A00166417 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		398394701BEF845A00166417 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		398394711BEF845A00166417 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		398394741BEF845B00166417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		398394761BEF845B00166417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		398394791BEF845B00166417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,12 +112,12 @@
 		398394651BEF845A00166417 /* MyOpenGLESTest */ = {
 			isa = PBXGroup;
 			children = (
-				398394691BEF845A00166417 /* AppDelegate.h */,
-				3983946A1BEF845A00166417 /* AppDelegate.m */,
-				3983946C1BEF845A00166417 /* Shader.fsh */,
-				3983946E1BEF845A00166417 /* Shader.vsh */,
-				398394701BEF845A00166417 /* GameViewController.h */,
-				398394711BEF845A00166417 /* GameViewController.m */,
+				39189D791BEF8D3D0099A071 /* AppDelegate.h */,
+				39189D7A1BEF8D3D0099A071 /* AppDelegate.m */,
+				39189D7B1BEF8D3D0099A071 /* FileWrapper.h */,
+				39189D7C1BEF8D3D0099A071 /* FileWrapper.m */,
+				39189D7D1BEF8D3D0099A071 /* ViewController.h */,
+				39189D7E1BEF8D3D0099A071 /* ViewController.m */,
 				398394731BEF845B00166417 /* Main.storyboard */,
 				398394761BEF845B00166417 /* Assets.xcassets */,
 				398394781BEF845B00166417 /* LaunchScreen.storyboard */,
@@ -123,7 +130,7 @@
 		398394661BEF845A00166417 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				398394671BEF845A00166417 /* main.m */,
+				39189D881BEF8D5D0099A071 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,10 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				398394751BEF845B00166417 /* Main.storyboard in Resources */,
-				3983946F1BEF845A00166417 /* Shader.vsh in Resources */,
 				398394771BEF845B00166417 /* Assets.xcassets in Resources */,
 				3983947A1BEF845B00166417 /* LaunchScreen.storyboard in Resources */,
-				3983946D1BEF845A00166417 /* Shader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3983946B1BEF845A00166417 /* AppDelegate.m in Sources */,
-				398394721BEF845A00166417 /* GameViewController.m in Sources */,
-				398394681BEF845A00166417 /* main.m in Sources */,
+				39189D851BEF8D3D0099A071 /* ViewController.m in Sources */,
+				39189D7F1BEF8D3D0099A071 /* AppDelegate.m in Sources */,
+				39189D891BEF8D5D0099A071 /* main.m in Sources */,
+				39189D821BEF8D3D0099A071 /* FileWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39189D8A1BEF8D5D0099A071 /* main.m in Sources */,
+				39189D831BEF8D3D0099A071 /* FileWrapper.m in Sources */,
+				39189D801BEF8D3D0099A071 /* AppDelegate.m in Sources */,
+				39189D861BEF8D3D0099A071 /* ViewController.m in Sources */,
 				398394851BEF845C00166417 /* MyOpenGLESTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39189D8B1BEF8D5D0099A071 /* main.m in Sources */,
+				39189D841BEF8D3D0099A071 /* FileWrapper.m in Sources */,
+				39189D811BEF8D3D0099A071 /* AppDelegate.m in Sources */,
+				39189D871BEF8D3D0099A071 /* ViewController.m in Sources */,
 				398394901BEF845C00166417 /* MyOpenGLESTestUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hqcore.MyOpenGLESTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MyOpenGLESTest/Include\"";
 			};
 			name = Debug;
 		};
@@ -436,6 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hqcore.MyOpenGLESTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MyOpenGLESTest/Include\"";
 			};
 			name = Release;
 		};
@@ -508,6 +524,7 @@
 				398394961BEF845C00166417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398394971BEF845C00166417 /* Build configuration list for PBXNativeTarget "MyOpenGLESTestTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +533,7 @@
 				398394991BEF845C00166417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3983949A1BEF845C00166417 /* Build configuration list for PBXNativeTarget "MyOpenGLESTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +542,7 @@
 				3983949C1BEF845C00166417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

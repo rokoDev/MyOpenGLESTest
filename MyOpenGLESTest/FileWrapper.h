@@ -28,15 +28,10 @@
 // Publisher: Addison-Wesley Professional
 // URLs:      http://www.opengles-book.com
 //            http://my.safaribooksonline.com/book/animation-and-3d/9780133440133
-
-
-#import <UIKit/UIKit.h>
-
-#import "AppDelegate.h"
-
-int main(int argc, char * argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+/////
+/// \brief Given a fileName, convert into a path that can be used to open from
+/// the mainBundle
+/// \param fileName Name of file to convert to mainBundle path
+/// \return Path that can be used to fopen() from the mainBundle
+///
+const char *GetBundleFileName ( const char *fileName );

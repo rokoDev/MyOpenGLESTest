@@ -28,15 +28,9 @@
 // Publisher: Addison-Wesley Professional
 // URLs:      http://www.opengles-book.com
 //            http://my.safaribooksonline.com/book/animation-and-3d/9780133440133
+//#import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
 
+@interface ViewController : GLKViewController
 
-#import <UIKit/UIKit.h>
-
-#import "AppDelegate.h"
-
-int main(int argc, char * argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@end
